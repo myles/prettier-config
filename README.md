@@ -6,11 +6,11 @@ A single source of truth for code formatting, so every project stays consistent 
 
 ## Settings
 
-| Option          | Value   | Meaning                                            |
-| --------------- | ------- | -------------------------------------------------- |
+| Option          | Value   | Meaning                                                  |
+| --------------- | ------- | -------------------------------------------------------- |
 | `trailingComma` | `"all"` | Trailing commas wherever possible (incl. function args). |
-| `tabWidth`      | `2`     | Two spaces per indentation level.                  |
-| `singleQuote`   | `false` | Use double quotes.                                 |
+| `tabWidth`      | `2`     | Two spaces per indentation level.                        |
+| `singleQuote`   | `false` | Use double quotes.                                       |
 
 Everything else falls back to [Prettier's defaults](https://prettier.io/docs/options).
 
