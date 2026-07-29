@@ -1,0 +1,29 @@
+{
+  "name": "@mylesb/prettier-config",
+  "version": "1.0.0",
+  "description": "Myles' shared Prettier configuration for (hopefully) all his projects.",
+  "keywords": [
+    "prettier-config"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/myles/prettier-config.git"
+  },
+  "license": "MIT",
+  "author": "Myles Braithwaite <myles@myles.garden> (https://myles.garden)",
+  "type": "module",
+  "exports": "./index.js",
+  "scripts": {
+    "prettier": "prettier . -c",
+    "prettier:write": "prettier . --write"
+  },
+  "devDependencies": {
+    "prettier": "3.9.6"
+  },
+  "peerDependencies": {
+    "prettier": ">=3.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
