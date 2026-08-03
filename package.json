@@ -7,7 +7,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/myles/prettier-config.git"
+    "url": "git@github.com:myles/prettier-config.git"
   },
   "license": "MIT",
   "author": "Myles Braithwaite <myles@myles.garden> (https://myles.garden)",
@@ -32,6 +32,9 @@
   },
   "peerDependencies": {
     "prettier": ">=3.0.0"
+  },
+  "engines": {
+    "node": ">=22.12.0"
   },
   "publishConfig": {
     "access": "public"
