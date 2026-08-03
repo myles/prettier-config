@@ -12,7 +12,17 @@
   "license": "MIT",
   "author": "Myles Braithwaite <myles@myles.garden> (https://myles.garden)",
   "type": "module",
-  "exports": "./index.js",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  },
+  "types": "./index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
   "scripts": {
     "prettier": "prettier . -c",
     "prettier:write": "prettier . --write"
