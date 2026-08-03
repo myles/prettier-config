@@ -1,6 +1,6 @@
 {
   "name": "@mylesb/prettier-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Myles' shared Prettier configuration for (hopefully) all his projects.",
   "keywords": [
     "prettier-config"
